@@ -1,7 +1,8 @@
-#include <stdio.h>
-
-int main(){
+#include<stdio.h>
   
-  printf("Hello World");  
-  return 0;
-}
+  int main(){
+    int ret;
+    ret = soma(2, 3);
+    printf("O resultado é: %d", ret);
+    return 0;
+  }
